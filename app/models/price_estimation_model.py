@@ -4,11 +4,11 @@ from datetime import datetime
 
 class InputRealEstate(BaseModel):
     x1: str
-    x2: int
+    x2: float
     x3: float
     x4: int
-    x5: str
-    x6: str
+    x5: float
+    x6: float
 
 
 class ResponsePriceEstimation(BaseModel):
